@@ -1,19 +1,20 @@
 <template>
   <div>
+    Team
     <v-card style="padding: 10px; border-radius: 20px; background: #EAECFC ">
-      <HomeSectionFirst/>
+      <TeamSection/>
     </v-card>
   </div>
 </template>
 
 <script>
-import HomeSectionFirst from '../components/HomeSectionFirst'
+import TeamSection from '../components/TeamSection.vue'
 
 export default {
-  name: 'Home',
+  name: 'Team',
 
   components: {
-    HomeSectionFirst
+    TeamSection
   }
 }
 </script>
