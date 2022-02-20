@@ -1,10 +1,10 @@
 <template>
   <div>
   <v-row style="margin: 10px">
-    <v-col lg="2">
+    <v-col lg="2" md="2">
       <Sidebar/>
   </v-col>
-  <v-col lg="10">
+  <v-col lg="10" md="10">
   <div>
     <router-view/>
   </div>

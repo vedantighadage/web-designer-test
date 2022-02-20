@@ -9,10 +9,10 @@
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
-            Application
+            Demo
           </v-list-item-title>
           <v-list-item-subtitle>
-            subtext
+            Panel 05
           </v-list-item-subtitle>
         </v-list-item-content>
       </v-list-item>
@@ -28,7 +28,7 @@
           to="/"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-home</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -40,7 +40,7 @@
           to="/team"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-account-multiple</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -52,7 +52,7 @@
           to="/#"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-wallet</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -64,7 +64,7 @@
           to="/#"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-clipboard-text</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -76,7 +76,7 @@
           to="/#"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-wallet</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -87,7 +87,7 @@
           to="/#"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-wallet</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
@@ -98,7 +98,7 @@
           to="/#"
         >
           <v-list-item-icon>
-            <v-icon>mdi-home-city</v-icon>
+            <v-icon>mdi-logout</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>

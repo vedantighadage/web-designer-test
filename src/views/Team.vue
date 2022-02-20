@@ -1,6 +1,5 @@
 <template>
   <div>
-    Team
     <v-card style="padding: 10px; border-radius: 20px; background: #EAECFC ">
       <TeamSection/>
     </v-card>
