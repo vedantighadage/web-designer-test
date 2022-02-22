@@ -1,11 +1,11 @@
 <template>
    <v-card
-    height="400"
+    height="640"
     width="256"
     class="mx-auto"
-    style="border-radius: 20px; background: #F6F6FF"
+    style="border-radius: 20px; box-shadow: 4px 4px 9px #04044345"
   >
-    <v-navigation-drawer permanent>
+    <v-navigation-drawer permanent style="background: #F6F6FF">
       <v-list-item>
         <v-list-item-content>
           <v-list-item-title class="text-h6">
@@ -106,6 +106,23 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <v-card
+      height="120px"
+      style="margin: 15px; background: transparent linear-gradient(180deg, #4D24F3 0%, #7F08F6 100%)"
+    >
+
+    </v-card>
+    <v-card-subtitle>
+    <h5>Demo Panel 05 </h5>
+    <h6>© 2021 All Rights Reserved</h6>
+    </v-card-subtitle>
     </v-navigation-drawer>
+
   </v-card>
 </template>
+
+<style scoped>
+.v-list .v-sheet .theme--light .v-list--dense .v-list--nav{
+  background: red;
+}
+</style>
