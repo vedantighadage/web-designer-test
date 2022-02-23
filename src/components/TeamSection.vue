@@ -66,6 +66,90 @@
   </v-container>
   </v-col>
   </v-row>
+  <v-row>
+    <v-col align="center">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+  </v-row>
+  <v-row>
+    <v-col align="center" lg="6">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="6">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+  </v-row>
+  <v-row>
+    <v-col align="center" lg="3">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="3">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="3">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="3">
+      <v-card height="100px" width="100px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+  </v-row>
+  <!-- <v-row>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+    <v-col align="center" lg="2">
+      <v-card height="50px" width="50px" class="rootcard">
+        <h1>test</h1>
+      </v-card>
+    </v-col>
+  </v-row>
+   -->
   </div>
 </template>
 
@@ -79,5 +163,8 @@ export default {
 <style scoped>
 .titlestyle{
   padding: 40px 20px 0px 40px;
+}
+.rootcard{
+  border-radius: 50px;
 }
 </style>
